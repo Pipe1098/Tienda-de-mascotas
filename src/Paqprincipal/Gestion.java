@@ -44,7 +44,7 @@ public class Gestion {
         }
 
         public void add () {// Agregar una mascota
-            System.out.println ("¿Agrega un perro o un gato o un conejo? \n" + "1.   2.   3.");
+            System.out.println ("¿Quiere Agregar un perro un gato o un conejo? \n" + "1.   2.   3.");
             String choice = input.next();
             if(choice.equals("1")) {
                 Perro dog = new Perro();
@@ -198,8 +198,8 @@ public class Gestion {
                         num--;
                     }
                 }
-                else if(choice.equals("2")) {
-                    System.out.println ("Ingrese las características del perro que desea vender");
+                if(choice.equals("2")) {
+                    System.out.println ("Ingrese las características del gato que desea vender");
                     System.out.print ("Color:");
                     String color1 = input.next();
                     System.out.print ("Edad:");
@@ -214,18 +214,18 @@ public class Gestion {
                         }
                     }
                     if(i == dogFoot) {
-                        System.out.println ("¡Verifique que no haya tal perro! Vuelva a ingresar después de verificar");
+                        System.out.println ("¡No existe tal gato! Por favor verifique y vuelva a ingresar \n");
                         sell();
                     }
                     else {
-                        pets[petFoot].setKind("dog");
                         pets[petFoot] = dogs[i];
+                        pets[petFoot].setKind("dog");
                         petFoot++;
                         for(int j = flag; j < dogFoot; j++) {
                             dogs[j] = dogs[j + 1];
                         }
                         System.out.println ("Vendido con éxito! \n");
-                        dogFoot -= 1; // Si no es menos 1, informará un error de matriz fuera de límites
+                        dogFoot -= 1; // Si no disminuye en 1, informará un error de matriz fuera de límites
                         outNum++;
                         num--;
                     }

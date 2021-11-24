@@ -284,7 +284,7 @@ public class Gestion {
 
         public void profitNote() {
             Date date = new Date();
-            System.out.println ("=========== Rentabilidad de la tienda de mascotas ===========");
+            System.out.println ("=========== Renntabilidad de la tienda de mascotas ===========");
             double cost = 0.0;
             double income = 0.0;
             double myProfit = 0.0;

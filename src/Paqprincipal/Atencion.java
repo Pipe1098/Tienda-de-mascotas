@@ -16,7 +16,7 @@ public class Atencion {
             System.out.println("Ingrese los sintomas de su mascota");
             input = IN.next();
             if (input.equals("fiebre")) {
-                System.out.println("su medico asignado es x");
+                System.out.println("su medico asignado es y");
             } else {
                 System.out.println("no hay medicos para atender ese sintoma");
             }

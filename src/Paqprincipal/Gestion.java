@@ -91,11 +91,11 @@ public class Gestion {
 
                     cats[catFoot] = cat;
                     catFoot++;
-                    System.out.println("¡Agregado exitosamente!");
+                    System.out.println("¡Agregado con exito!");
                     inNum++;
                     num++;
                 } else {
-                    System.out.println("¡Error al agregar!");
+                    System.out.println("¡Error al ser agregador!");
                 }
             }
                   else if(choice.equals("3")) {

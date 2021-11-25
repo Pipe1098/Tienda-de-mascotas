@@ -79,7 +79,7 @@ public class Principal {
                         break;
 
                     default:
-                        System.out.println ("Entrada incorrecta, vuelva a introducirla");
+                        System.out.println ("Entrada incorrecta, vuelva a intentar");
                         break;
                 }
 

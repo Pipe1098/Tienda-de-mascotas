@@ -75,7 +75,7 @@ public class Principal {
 
                         break;
                     case "0":
-                        System.out.println ("Gracias por su visita y bienvenido a volver la próxima vez! \n" + "********** Pulse cualquier tecla para finalizar el programa ******* *** ");
+                        System.out.println ("Gracias por su visita y bienvenido a volver la siguiente vez! \n" + "********** Pulse cualquier tecla para finalizar el programa ******* *** ");
                         break;
 
                     default:
